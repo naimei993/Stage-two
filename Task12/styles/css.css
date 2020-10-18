@@ -1,0 +1,127 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content1 thead{
+background-color: black;
+color: #ffffff;
+}
+.content1 tbody tr:nth-child(1){
+
+color: red;
+}
+.content1 tbody tr:nth-child(2){
+    background-color:#cccccc;
+    color: red;
+}
+.content1 tbody tr:nth-child(3){
+
+        color: red;
+}
+.content1 tbody tr:nth-child(4){
+    background-color:#cccccc;
+}
+.content1 tbody tr:nth-child(5) td:nth-child(2){
+    color: red;
+}
+.content1 tbody tr:nth-child(6){
+    background-color:#cccccc;
+}
+.content1 tbody tr:nth-child(7) td:nth-child(2){
+    color: red;
+}
+.content1 tbody tr:nth-child(8){
+    background-color:#cccccc;
+}
+.content1 tbody tr:nth-child(9) td:nth-child(2){
+    color: red;
+}
+.content1 tbody tr:nth-child(10){
+    background-color:#cccccc;
+    
+}
+.content2{
+    margin-top: 2em;
+    
+    
+}
+.input1 input{
+    margin-bottom: 1em;
+    outline: none;
+    width: 100px;
+    margin-left: 35px;
+   
+}
+
+
+.input2 input:focus{
+    transition:border linear .2s;
+    box-shadow: linear .5s;
+    border-color:#6699ff;
+    box-shadow:0 0 18px #6699ff;
+    width: 200px;
+    outline: none;
+    
+}
+
+.content3_{
+    position: relative;
+    width: 300px;
+    height: 112px;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  .imgs{
+    position: absolute;
+    left: 0;
+    width: 900px;
+    height: 112px;
+    animation: carousel  ease 6s infinite;
+  }
+  @keyframes carousel{
+         0%{ left: 0; }
+        28%{ left: 0; }
+        35%{ left: -300px; }
+        63%{ left: -300px; }
+        70%{ left: -600px; }
+         98%{ left: -600px; }
+         100%{ left: 0; }
+       }
+  .img{
+    position: absolute;
+    width: 300px;
+    height: 112px;
+  }
+  #green{
+    left:0;
+  }
+  #green_blue{
+    left:300px;
+  }
+  #blue{
+    left:600px;
+  }
+  .tag{
+         display: inline-block;
+         position: relative;
+         width:30px;
+         height: 30px;
+         margin:0;
+         top:-30px;
+         left: 200px;
+         line-height: 30px;
+         text-align: center;
+         background-color: rgba(0, 0, 0, 0.2);
+         color:white;
+}
+.tag1:target{
+    left: 0;
+}
+.tag2:target{
+    left: 0;
+}
+.tag3:target{
+    left: 0;
+}
